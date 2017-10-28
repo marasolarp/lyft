@@ -65,13 +65,13 @@ h3{
 	padding-top: 30px;
 	font-size: 15px;
 }
-h2{
+h1{
 	color: #352384;
     font-size: 40px;
     font-weight: 50px;
 }
 input{
-	width: 70%;
+	width: 80%;
 	margin-top: 14px;
 }
 button{
@@ -81,7 +81,7 @@ button{
     color: #fff;
     font-size: 10px;
     padding: 16px 44px;
-    margin-top: 14px;
+    margin-top: 10px
 }
 a{
 	padding-left: 17px;
@@ -91,4 +91,148 @@ p{
 	color:#728099;
 	font-size: 10px;
 }
+/*comienzo 1 section*/
 
+
+.second-phone{
+	background:linear-gradient(#76278F, #2B1E66);
+	padding: 20px,0;
+}
+.text-one{
+	float: left;
+	margin-left: 150px;
+
+}
+h4{
+	color:#fff;
+	font-size: 30px;
+	padding-top: 50px;
+}
+.phone1{
+	 width: 30%;
+    /* margin: auto; */
+    margin-left: 299px;
+    margin-top: 80px;
+}
+.text-two{
+	color:#fff;
+	font-size: 13px;	
+}
+.new-amplifity{
+	overflow: hidden;
+	clear: both;
+}
+.video-amplify{
+	float: right;
+    height: 400px;
+    width: 66%;
+}
+.amplify{
+	float: left;
+	width: 25%;
+	text-align: left;	
+	margin-left:80px;
+}
+h5{
+	margin-top: 40px;
+	font-size: 10px;
+	color: #000;
+}
+.title-one{
+	font-size: 30px;
+	color: #000;
+}
+.new-amplify p{
+	font-size: 15px;
+	color: #000;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+.june{
+	overflow: hidden;
+	clear: both;
+}
+.video-june{
+	float: left;
+    height: 400px;
+    width: 66%;
+}
+.text-june{
+    float: right;
+    width: 25%;
+    text-align: left;
+    margin-left: 80px;
+    padding-right: 41px;	
+}
+.june p{
+	font-size: 15px;
+	color: #000;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.going{
+	overflow: hidden;
+	clear: both;
+}
+.video-going {
+	float: right;
+    height: 400px;
+    width: 66%;
+}
+.text-going{
+float: left;
+    width: 25%;
+    text-align: left;
+    margin-left: 80px;
+    padding-right: 41px;
+}
+.going p{
+	font-size: 15px;
+	color: #000;
+	margin-top: 15px;
+	margin-right: 20px;	
+}
+/*FOOTER---------------
+-----------------------
+-----------------------
+---------------------*/
+.footer-one{
+	background-color: #333447;
+	width: 100%;
+	height: 500px;
+}
+.footer-list{
+	width: 23%;
+    height:50px;
+    margin-left: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    float: left;
+    text-align: left;
+
+}
+.link-title{
+	font-size: 30px;
+    color: #fff;
+    text-align: left;
+    padding: 25px 35px;
+    text-decoration: none;
+
+
+}
+.list1{
+	list-style: none;
+	/*overflow: hidden;me pert¿mite que mi contenedor no calapse*/
+	padding: 5px;	
+	margin-left:54px;
+	padding-top: 30px;
+
+}
+.link1{
+	color: #fff;
+    text-align: left;
+    padding: 27px 17px;
+    text-decoration: none;
+    font-size: 12px;
+}
