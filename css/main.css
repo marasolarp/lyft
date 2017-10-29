@@ -26,24 +26,24 @@ header{
 	float: left;
 	display: block;
 }
-ul{
+.left-nav{
 	list-style: none;
 	overflow: hidden;/*me pert¿mite que mi contenedor no calapse*/
 	padding: 5px;	
-	margin-left:54em;
+	margin-left:50em;
 	padding-top: 30px;
 }
-li{
+.rigth_1 {
 	margin-left: 30px;
 }
-li a{
+.rigtht_1,.menu1 {
 	float: left;
 	color: #fff;
 	text-align: center;
 	padding: 20px 24px;
 	text-decoration: none;
 }
-li: last-child{
+.right1: last-child{
 	border-radius: 6px;
 	border:1px solid #fff;
 }
@@ -83,7 +83,7 @@ button{
     padding: 16px 44px;
     margin-top: 10px
 }
-a{
+.sig{
 	padding-left: 17px;
 }	
 p{
@@ -101,7 +101,6 @@ p{
 .text-one{
 	float: left;
 	margin-left: 150px;
-
 }
 h4{
 	color:#fff;
@@ -109,8 +108,7 @@ h4{
 	padding-top: 50px;
 }
 .phone1{
-	 width: 30%;
-    /* margin: auto; */
+	width: 30%;
     margin-left: 299px;
     margin-top: 80px;
 }
@@ -148,7 +146,6 @@ h5{
 	margin-top: 15px;
 	margin-right: 20px;
 }
-
 .june{
 	overflow: hidden;
 	clear: both;
@@ -193,46 +190,79 @@ float: left;
 	margin-top: 15px;
 	margin-right: 20px;	
 }
-/*FOOTER---------------
------------------------
------------------------
----------------------*/
+/*FOOTER*/
 .footer-one{
+	list-style: none;
+	overflow: hidden;/*me permite que mi contenedor no calapse*/
+	width: 100%;	
+	padding-top: 65px;
 	background-color: #333447;
-	width: 100%;
-	height: 500px;
+	clear: both;
 }
 .footer-list{
-	width: 23%;
-    height:50px;
-    margin-left: 20px;
-    padding-top: 30px;
-    text-decoration: none;
+	list-style: none;
     float: left;
-    text-align: left;
-
+    padding: 2px 74px;
+    margin: 0;
 }
 .link-title{
-	font-size: 30px;
-    color: #fff;
-    text-align: left;
-    padding: 25px 35px;
-    text-decoration: none;
-
-
+	color: #fff;
+    font-size: 18px;
+    padding-left: 26px;
+    margin: 0;
 }
 .list1{
-	list-style: none;
-	/*overflow: hidden;me pert¿mite que mi contenedor no calapse*/
-	padding: 5px;	
-	margin-left:54px;
-	padding-top: 30px;
+	padding-top: 17px;
+    padding-left: 31px;
 
 }
 .link1{
 	color: #fff;
-    text-align: left;
-    padding: 27px 17px;
-    text-decoration: none;
-    font-size: 12px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.footer-image{
+	list-style: none;
+}
+.img2{
+	width: 10%;
+	padding-left: 70px;    
+}
+.img3{
+	width: 10%;
+	padding-left: 70px;
+}
+.img4{
+	width: 10%;
+	padding-left: 70px;
+}
+.link1:hover{
+	color:#FF00BF;
+	text-decoration: underline;
+}
+hr{
+	width: 56%;
+    height: auto;
+    margin-left: 204px;
+    margin-top: 30px;
+}
+.footer-one p{
+    font-size: 13px;
+    color: #fff;
+    padding-left: 533px
+}
+.fa-facebook, .fa-instagram, .fa-twitter{
+	color: #fff;
+    font-size: 16px;
+    line-height: 33px;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin-right: 7%;
+    margin-top: 56px;
+}
+.icons{
+	margin-left: 518px;
 }
