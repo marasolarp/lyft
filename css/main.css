@@ -1,6 +1,4 @@
-/*
- * Estilos de tu proyecto
- */
+
  *{
  	font-family: 'Montserrat', sans-serif;
  	padding:0;	
@@ -12,7 +10,7 @@ header{
 	background-image: url(../assets/images/hero.gif);/*dos puntos por que la carpeta n oesta a la misma altura y ebe devolverse*/
 	height: auto;/*para que se ajuste automaticamente a nuestro fondo*/
 	width: 100%;
-	background-size: cover;/*es para que abraque todo el ancho y alto que es necesario*/
+	background-size: cover;/*es para que abarque todo el ancho y alto que es necesario*/
 }
 .logo-lift{
 	width: 4.5%;
@@ -28,7 +26,7 @@ header{
 }
 .left-nav{
 	list-style: none;
-	overflow: hidden;/*me pert¿mite que mi contenedor no calapse*/
+	overflow: hidden;/*me pertmite que mi contenedor no calapse*/
 	padding: 5px;	
 	margin-left:50em;
 	padding-top: 30px;
@@ -46,6 +44,15 @@ header{
 .right1: last-child{
 	border-radius: 6px;
 	border:1px solid #fff;
+}
+.login{
+	border-radius: 8px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 18px;
+    margin-top: 4px;
 }
 .container1{
 	width: 40%;
@@ -81,10 +88,11 @@ button{
     color: #fff;
     font-size: 10px;
     padding: 16px 44px;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .sig{
 	padding-left: 17px;
+	color:#728099
 }	
 p{
 	margin-top:25px;
@@ -92,8 +100,6 @@ p{
 	font-size: 10px;
 }
 /*comienzo 1 section*/
-
-
 .second-phone{
 	background:linear-gradient(#76278F, #2B1E66);
 	padding: 20px,0;
